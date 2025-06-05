@@ -245,13 +245,19 @@ p + h2 {
     overflow: visible !important;
   }
 
-  .notion-form__field.email {
+/*   .notion-form__field.email {
     flex: 1 !important;
     margin: 0 !important;
   }
 
   .notion-form__field-title {
     display: none !important;
+  } */
+
+  .notion-form__field {
+  flex: 1 !important;
+  margin: 0 0 12px 0 !important;
+  width: 100% !important;
   }
 
   .notion-form__input-field {
